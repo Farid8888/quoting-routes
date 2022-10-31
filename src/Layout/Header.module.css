@@ -1,0 +1,47 @@
+.header{
+    background-color: rgb(33, 129, 136);
+    
+}
+.header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 8rem;
+}
+
+.header h2{
+    margin: 0;
+    color: white;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+
+
+.header li{
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.headerList{
+ display: flex;
+ flex-direction: row;
+}
+
+.header a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.541);
+}
+
+.header a.quote{
+    color: white;
+}
+
+.header a:active,
+.header a:hover{
+    color:white
+}
+
+

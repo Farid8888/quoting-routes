@@ -1,0 +1,50 @@
+
+.fullScreen{
+    background-color: rgb(6, 56, 45);
+    border-radius: 6px;
+    width: 35rem;
+    max-width: 95%;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+.fullScreen h3{
+    color: white;
+    font-size: 2rem;
+}
+
+.fullScreen p{
+    color: rgb(182, 229, 214);
+    font-size: 2rem;
+    margin-top: 10rem;
+    font-style:italic
+}
+.btn{
+    width: 35rem;
+    max-width: 95%;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.btn button{
+    background-color:inherit ;
+    color:rgb(17, 80, 54);
+}
+
+.btn button:hover{
+    background-color: rgb(3, 78, 53);
+    color: white;
+}
+
+.loading{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.error{
+    text-align: center;
+    margin-top: 10rem;
+}

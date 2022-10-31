@@ -1,0 +1,10 @@
+.commentsItem{
+    text-align: center;
+    width: 40rem;
+    max-width: 95%;
+    margin:  auto;
+    color: rgb(0, 128, 79);
+    border-bottom: 2px solid rgb(0, 128, 79);
+    padding: 20px;
+    margin-bottom: 2rem;
+}

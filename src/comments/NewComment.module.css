@@ -1,0 +1,39 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40rem;
+    max-width: 95%;
+    margin: 2rem auto;
+    margin-bottom: 0;
+}
+
+
+.form label{
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.form textarea{
+    background-color: rgba(241, 203, 229, 0.459);
+    border-radius: 3px;
+    border: 1px solid rgba(148, 143, 143, 0.568);
+    margin-bottom: 1.4rem;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.form textarea:focus{
+    background-color: rgba(106, 241, 235, 0.466);
+    outline: none;
+    border:1px solid green;
+}
+
+.loading{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+
+

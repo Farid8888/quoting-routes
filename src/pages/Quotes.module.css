@@ -1,0 +1,44 @@
+.noQuotes{
+    width: 30rem;
+    max-width: 95%;
+    margin: 10rem auto;
+    text-align: center;
+}
+
+.noQuotes h1{
+font-size: 3rem;
+margin-bottom: 3rem;
+}
+
+.quotes{
+    width: 40rem;
+    max-width: 95%;
+    margin: 4rem auto;
+}
+
+.btn{
+    border-bottom:2px solid rgba(0, 128, 128, 0.274);
+    margin-bottom: 2rem;
+}
+
+.btn button{
+    margin-bottom: 15px;
+    background-color: inherit;
+    border: 1px solid teal;
+    color:teal
+}
+
+.btn button:hover{
+    background-color: teal;
+    color:white
+}
+
+.loading{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.error{
+    text-align: center;
+    margin-top: 2rem;
+}

@@ -1,0 +1,26 @@
+.quotesitem{
+    margin: 0;
+    padding: 20px 20px;
+    background-color: rgba(104, 212, 212, 0.63);
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 6px;
+    box-shadow: 1px 2px 8px rgba(128, 128, 128, 0.404);
+}
+
+.quotesitem li{
+    list-style: none;
+}
+
+.quotesitem h3,p{
+    margin: 0;
+}
+
+.quotesitem button{
+    font-size: 0.9rem;
+}
+.quotesitem p{
+    font-style: italic;
+}

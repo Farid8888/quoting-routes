@@ -1,0 +1,11 @@
+.comments{
+    width: 35rem;
+    max-width: 95%;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.noComments{
+    text-align: center;
+    margin: 2rem auto;
+}
