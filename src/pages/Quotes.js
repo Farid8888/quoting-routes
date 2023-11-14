@@ -1,6 +1,5 @@
 import classes from "./Quotes.module.css";
 import React, { useEffect, Fragment, useState } from "react";
-import QuotesItem from "./QuotesItem";
 import { useHistory } from "react-router";
 import useHttp from "../useHook/useHttp";
 import { fetchQuotesData } from "../api/api";
