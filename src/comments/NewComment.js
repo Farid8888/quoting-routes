@@ -3,15 +3,14 @@ import { sendCommentsData } from '../api/api'
 import {useRef,useEffect,Fragment} from 'react'
 import useHttp from '../useHook/useHttp'
 import {useHistory,useRouteMatch} from 'react-router'
-import LoadingSpinner from '../UI/LoadingSpinner'
-import { useCallback } from 'react/cjs/react.development'
+
 
 const NewComment =(props)=>{
     const history = useHistory()
     const match = useRouteMatch()
     console.log(match)
     console.log(history)
-    const {sendRequest,data,error,status} = useHttp(sendCommentsData)
+    const {sendRequest,error,status} = useHttp(sendCommentsData)
     const inputRef = useRef()
     const submitHandler=(event)=>{
         event.preventDefault()
